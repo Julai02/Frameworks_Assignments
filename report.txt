@@ -1,0 +1,55 @@
+Report: CORD-19 Metadata Analysis
+        Objective
+To explore and visualize trends in COVID-19 research using the CORD-19 
+metadata, focusing on publication patterns, journal activity, and 
+thematic content in paper titles.
+
+        Key Findings
+1. Publication Trends
+Research output peaked between 2020 and 2021, reflecting the global 
+urgency during the pandemic’s early phase.
+
+A steady decline followed in 2022, suggesting a shift toward
+post-pandemic studies or saturation in certain topics.
+
+2. Top Publishing Journals
+The most active journals included medRxiv, bioRxiv, and Journal of 
+Virology, indicating a strong presence of preprint servers and 
+virology-focused outlets.
+
+These journals contributed significantly to rapid dissemination of 
+findings during the crisis.
+
+3. Title Word Frequency
+Common words in paper titles included “COVID”, “SARS”, “pandemic”, “infection”, “response”, and “vaccine”.
+
+This highlights dominant research themes such as disease 
+characterization, public health response, and vaccine development.
+
+4. Source Distribution
+Major data sources included PMC, Elsevier, and WHO, reflecting a mix of 
+open-access repositories and institutional contributions.
+
+Visual Insights
+Line plots showed publication surges aligned with global pandemic 
+waves.
+
+Bar charts revealed journal dominance and source concentration.
+
+A word cloud offered a thematic snapshot of research focus areas.
+
+    Tools & Technologies
+Data wrangling: pandas
+
+Visualization: matplotlib, seaborn
+
+Text analysis: re, collections.Counter, WordCloud
+
+Interactive app: Streamlit
+
+Conclusion
+The CORD-19 metadata provides a rich lens into the scientific response 
+to COVID-19. The analysis reveals how publication volume, journal 
+activity, and thematic focus evolved during the pandemic, offering 
+valuable insights for researchers, policymakers, and public health 
+strategists.
